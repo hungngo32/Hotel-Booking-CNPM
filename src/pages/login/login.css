@@ -1,0 +1,36 @@
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://static.vecteezy.com/system/resources/previews/002/169/748/non_2x/hand-holding-smartphone-at-hotel-or-hostel-search-and-booking-online-house-building-exterior-location-pin-mobile-app-searching-gps-point-on-city-map-and-cityscape-background-eps-illustration-vector.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.lContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lInput {
+  height: 30px;
+  padding: 10px;
+}
+
+.lButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.lButton:disabled {
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}

@@ -1,0 +1,113 @@
+.navbar{
+  height: 70px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-weight: 500;
+}
+
+.navButton{
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+}
+
+
+
+/*car*/
+
+.menu_car{
+  display: flex;
+  margin-top: 10px;
+  height: auto;
+}
+.nav-menu {
+  z-index: 10 ;
+  background-color: #F0F0F2;
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: -60%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  right: 0%;
+  transition: 350ms;
+}
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #F0F0F2;
+  width: 95%;
+  height: 1px;
+  display: flex;
+  justify-content: end;
+  align-items: right;
+  margin-right: 20px;
+}
+
+.menu-bars {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  background: none;
+}
+.logo >img
+{
+    font-weight: 500px;
+    margin-top: 20px;
+    height: 80px;
+}
+.menuNavbar
+{
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+    margin-right: 300px;
+}
+nav
+{
+  top:0;
+  position: sticky;
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
+}
+.menuNavbar >li >a{
+  text-decoration:none;
+  color: white;
+}
+.menuNavbar>li
+{
+    margin: 10px;
+    list-style: none;
+}
+#user_{
+  color: #F0F0F2;
+  position: relative;
+  text-decoration: none;
+}
+#lengthCart
+{
+  color: yellow;
+  font-size: 12px;
+  font-weight: 900;
+}

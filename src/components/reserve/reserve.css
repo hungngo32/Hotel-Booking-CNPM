@@ -1,0 +1,224 @@
+
+
+.rContainer {
+  background-color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.rClose {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.rItem {
+  background-color: #EDEFF2;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 10px;
+  padding: 20px;
+  border: 20px;
+  justify-content: space-between;
+}
+
+.rInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.rTitle {
+  font-weight: 500;
+  text-align: center;
+  
+}
+
+.rDesc {
+  font-weight: 300;
+}
+
+.rMax {
+  font-size: 12px;
+}
+
+.rPrice {
+  font-weight: 500;
+  text-align: right;
+}
+
+.rSelectRooms{
+  flex-wrap: wrap;
+  gap: 5px;
+  height: 20px;
+  font-size: 8px;
+  color: gray;
+  text-align: right;
+  justify-content: right;
+  display: flex;
+}
+
+
+.rButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 20px;
+}
+.img_Room
+{
+  height: 90px;
+  background-color: #E0E2E6;
+  border-radius: 20px;
+}
+.R_Info
+{
+  display: inline;
+}
+.R_addtocar
+{
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 83%;
+  margin-top: 10px;
+}
+.raffair
+{
+  display: inline;
+  
+}
+.rInFo
+{
+  background-color: #EDEFF2;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.rservice_ > img
+{
+  font-size: 20px;
+  height: 100px;
+  width: 200px;
+  border-radius: 2px;
+}
+#title
+{
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
+.rtitle label
+{
+  font-size: 11px;
+  margin-left: 10px;
+}
+.rservice_ span
+{
+  margin-left:10px ;
+  font-size: 11px;
+}
+
+.rInFOitem
+{
+  display: flex;
+  
+}
+.rservice_
+{
+  margin-left: 10px;
+}
+.rinforitem
+{
+  background-color: white;
+  width: max-content;
+  margin-left: 10px;
+  border-radius: 2px;
+  width: 70vh;
+}
+.rinforitem hr
+{
+  background-color: #EDEFF2;
+  height: 0.5px;
+  border: none;
+}
+.rpeople
+{
+  display: flex;
+  margin:10px 20px 10px 20px;
+}
+.rpeople div
+{
+  margin-right: 40px;
+}
+.rincentives 
+{
+  margin:10px 20px 10px 20px;
+}
+.rincentives  label
+{
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.rincentives span
+{
+  font-size: 10px;
+  margin-right: 10px;
+}
+.rSelectR
+{
+  text-align: right;
+  margin:10px 20px 10px 20px;
+
+}
+
+.rPrice_
+{
+  font-weight: 600;
+  color: red;
+  margin-right: 20px ;
+}
+.Rroom{
+  display: flex;
+  justify-content: flex-start;
+}
+.Rroom label
+{
+  margin-right: 20vh;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.Rroom span
+{
+  font-size: 12.5px;
+  margin-left: 5px;
+  margin-right: 25px;
+  padding: 2px;
+}
+.rSelectR button
+{
+  background-color:yellow ;
+  border-radius: 5px;
+  border: 1.5px;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+}
+
+

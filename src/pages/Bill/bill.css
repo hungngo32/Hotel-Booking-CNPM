@@ -1,0 +1,110 @@
+.fillform
+{
+    background-color: #F1F1F1;
+}
+.fillform>nav
+{
+    display: flex;
+    background-color: white;
+    height: 15vh;
+    top:0;
+    position: sticky;
+    z-index: 3;
+    justify-content: flex-start;
+}
+a> img
+{
+   
+    height: 20vh;
+    margin: 40px 28vh 0px 15vh;
+    
+}
+nav hr
+{
+    width: 15vh;
+    margin: 0px 40px 30px 40px;
+    border: none;
+    height: 2px;
+    background: #EDEFF2;
+}
+.sequence
+{
+    color: #98A0B0;
+    text-align: center;
+    align-items: center;
+    width: 90px;
+    margin-bottom: 15px;
+}
+ .sequence label
+{
+    font-size: 12px;
+    font-weight: 600;
+} 
+.sequence div
+{
+    border-color: #98A0B0;
+    border-width:2px;
+    border-style:solid;
+    background-color: white;
+    font-size: 20px;
+}
+
+/* full fill */
+.hotelContainer_Bill {
+    display: flex;
+    flex-direction: column;
+    margin-left: 22vh;
+    margin-top: 15px;
+  }
+.hotelWrapper_Bill {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+.hotelDetails_Bill {
+    display: flex;
+   
+    gap: 20px;
+    margin-top: 10px;
+  }
+  .hotelDetailsTexts_Bill {
+    flex: 5;
+    
+  }
+  .form
+  {
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+  }
+  
+.hotelDetailsPrice_Bill {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+.hotelDetailsPrice_Bill div
+  {
+   
+    height: 40vh;
+    background-color: #ebf3ff;
+    padding: 10px;
+  }
+.hotelDetailsPrice_Bill  h1 {
+    font-size: 18px;
+    color: #555;
+  }
+.hotelDetailsPrice_Bill  span {
+    font-size: 14px;
+  }
+.hotelDetailsPrice_Bill  h2 {
+    font-weight: 300;
+  }
+  
+

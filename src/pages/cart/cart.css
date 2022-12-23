@@ -1,0 +1,124 @@
+.Cart > span{
+    color: #244496;
+    font-size: large;
+    margin-top: 20px;
+    font-weight: 900 !important;
+    font-size: 20px;
+    
+}
+.select_all_cart >span
+{
+  font-size: 10px;
+}
+.rContainer_cart
+{
+  background-color: #F0F0F2;
+  margin-top: 1vh;
+  position: relative;
+  height: 60vh;
+
+}
+.rContainer_cart hr
+{
+  margin-right: 20px;
+  background-color: black;
+  border: none;
+  height: 0.2px;
+}
+.R_info_cart
+{
+  margin-left: 0px;
+}
+.rItem_cart {
+    max-height: max-content;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 10px;
+    background-color: #F0F0F2;
+    margin: 10px;
+    
+  }
+  .img_Room_cart
+  {
+    height: 50px;
+    font-size: small;
+  }
+  .ThanhToan
+  {
+      position:initial;
+      top: 200%;
+      
+      border: 10px;
+      border-color: black;
+      color: black;
+      height: 5vh;
+      bottom: 0%; 
+  }
+  .Price_car
+  {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+  }
+  .ThanhToan > button
+  {
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    background-color: #244496;
+    border: none;
+    color: white;
+    margin-top: 2vh;
+
+  }
+  .ThanhToan > button>a
+  {
+   
+    color: white;
+    text-decoration: none;
+
+  }
+  .ThanhToan > button :hover
+  {
+    cursor: pointer;
+  }
+  .ThanhToan>hr
+  {
+    height: 5px;
+    background-color: black;
+    margin-bottom: 10px;
+  }
+  #checkbox_all
+  {
+    margin-right: 5px;
+  }
+  .select_all_cart
+  {
+    color: black;
+  }
+  .rPrice_cart
+  {
+    margin-left: 150px;
+    font-size: 20px;
+  }
+  .rPrice_cart>div
+  {
+    font-size: 8px;
+    cursor: pointer;
+    margin-top: 5px;
+    align-self: flex-end;
+  }
+  #Car_empty
+  {
+    color: black;
+    margin-left: 30vh;
+
+  }
+  .rItemInfo_cart
+  {
+    width: 100px;
+  }
+ 
