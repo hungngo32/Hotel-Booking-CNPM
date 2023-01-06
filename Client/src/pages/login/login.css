@@ -1,0 +1,78 @@
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background: url("https://alvarotrigo.com/blog/assets/imgs/2022-01-17/best-hotel-website-designs-examples.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.lContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+  padding: 60px 60px 100px 60px;
+  border-radius: 5px;
+  margin-left: 15vh;
+  border-style: solid;
+  border-color: #180F06;
+
+}
+
+.lInput {
+  height: 30px;
+  padding: 10px;
+  width: 200px;
+  background-color: #1B1107;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.lButton {
+  border: none;
+  width: 15vh;
+  padding: 10px 20px;
+  background-color: #BFB496;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right:1px ;
+  
+}
+
+.lButton:disabled {
+  background-color: #BFB496;
+  cursor: not-allowed;
+}
+.login span
+{
+  text-align: end;
+  color: #1B1107;
+  font-size: 10px;
+  font-weight: 600;
+}
+.login img
+{
+  height: 30vh;
+  width: 30vh;
+  display: block;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.login h1
+{
+  color: white;
+}
+.login a
+{
+  color: #1B1107;
+  font-size: 12px;
+  width: 14vh;
+  box-shadow: 0 2px ;
+  cursor: pointer;
+}

@@ -1,0 +1,74 @@
+.profile_infor_0 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 180px 0px 20px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+._0 {
+    margin-top: 5vh;
+}
+
+._0 h1 {
+    margin-left: 20px;
+}
+
+._0 button {
+    width: 20vh;
+    height: 5vh;
+    margin-left: 56vh;
+    background-color: #1D3348;
+    color: white;
+    cursor: pointer;
+}
+
+.empty_profile {
+    margin: 10vh 0vh 0vh 45vh;
+    text-align: center;
+    color: #E1E1E1;
+}
+
+.profile_href a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 2vh;
+    margin-bottom: 10px;
+}
+
+.history_infor {
+    width: 38 vh;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #E1E1E1;
+    padding: 10px;
+    margin: 5px 10px 5px 10px;
+}
+
+.history_infor>div {
+    margin: 6px 0px 6px 0px;
+}
+
+.history_date_infor {
+    display: flex;
+    justify-content: start;
+    margin: 1vh 0vh 1vh 0vh;
+}
+
+.history_date_infor label {
+    color: red;
+    margin: 0vh 2vh 0vh 1vh;
+}
+
+.history_price_infor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history_price_infor h5 {
+    color: red;
+}
