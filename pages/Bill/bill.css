@@ -1,0 +1,341 @@
+.fillform
+{
+    background-color: #F1F1F1;
+    
+}
+.fillform>nav
+{
+    display: flex;
+    background-color: #1A2D3E;
+    height: 15vh;
+    top:0;
+    position: sticky;
+    z-index: 3;
+    justify-content: flex-start;
+}
+a> img
+{
+   
+    height: 20vh;
+    margin: 40px 28vh 0px 15vh;
+    
+}
+
+.bill hr
+{
+    width: 15vh;
+    margin: 0px 40px 30px 40px;
+    border: none;
+    height: 2px;
+    background: #BCB193;
+}
+.sequence
+{
+    color: #1A2D3E;
+    text-align: center;
+    align-items: center;
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+
+ .sequence label
+{
+    font-size: 12px;
+    font-weight: 600;
+} 
+.sequence div
+{
+    border-color: #98A0B0;
+    border-width:2px;
+    border-style:solid;
+    background-color: #BCB193;
+    font-size: 20px;
+}
+.sequence-active
+{
+    color: white;
+    text-align: center;
+    align-items: center;
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+
+ .sequence-active label
+{
+    font-size: 12px;
+    font-weight: 600;
+    color: #009FFB;
+} 
+.sequence-active div
+{
+    border-color: #003580;
+    border-width:2px;
+    border-style:solid;
+    background-color: #009FFB;
+    font-size: 20px;
+}
+
+
+/* full fill */
+.hotelContainer_Bill {
+    display: flex;
+    flex-direction: column;
+    margin-left: 22vh;
+    margin-top: 15px;
+  }
+.hotelWrapper_Bill {
+    /*width: 100%;*/
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+.hotelDetails_Bill {
+    display: flex;
+   
+    gap: 20px;
+    margin-top: 10px;
+  }
+
+  .hotelDetailsTexts_Bill h1
+  {
+    font-size: 20px;
+    font-weight: 2000;
+    color:  #555;
+  }
+  .form
+  {
+    
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 95vh;
+    height: 60vh;
+    border: 1px;
+    border-style: solid;
+    border-color: #DBE0EA;
+    padding: 10px 0px 10px 0px;
+  }
+  .form>button
+  {
+    background-color: #ED4922;
+    text-align: center;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    text-size-adjust: 20px;
+    margin: 2vh 0vh 0px 70%;
+    cursor: pointer;
+  }
+.required
+{
+  color: red;
+  margin-left: 2px;
+}
+.form label
+{
+  font-weight: 500;
+  margin-left: 15px;
+}
+.email_sdt_bill
+{
+  display: flex;
+  margin-right: 17vh;
+}
+.email_sdt_bill div:first-child
+{
+  flex: 1;
+}
+.email_sdt_bill input 
+{
+  font-size: 200vh;
+}
+
+.bill_service
+{
+  background-color: #F1F1F1;
+  height: fit-content;
+}
+.bill_service >h5
+{
+  font-size: 20px;
+  margin: 10px 15px 10px 15px;
+}
+.bill_service> h4
+{
+  color: red;
+  font-size: 12px;
+  margin: 2px 15px 10px 15px;
+}
+.bill_service div
+{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2vh;
+  margin: 1vh 10px 1vh 0vh;
+
+}
+.bill_service span
+{
+  font-size: 14px;
+  margin:"0vh 2vh 1vh 15px"
+}
+.bill_service hr
+{
+  background-color: #E3E3E3;
+  margin: 0px 15px 0px 15px;
+  border: none;
+  height: 1px;
+}
+
+.check_empty
+{
+  font-size: 10px;
+  color: red;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+.hotelDetailsPrice_Bill {
+    
+    display: flex;
+    flex-direction: column;
+  }
+
+.hotelDetailsPrice_Bill  h1 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+.hotelDetailsPrice_Bill  span {
+    font-size: 14px;
+  }
+.hotelDetailsPrice_Bill  h2 {
+    font-weight: 300;
+  }
+.img_hotel_bill
+{
+  display: flex;
+}
+.img_hotel_bill  img
+{
+  height: 10vh;
+  width: 15vh;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  margin: 10px 10px 10px 10px;
+  
+}
+.img_hotel_bill h1
+{
+  margin-top:10px
+}
+.infor_bill hr
+{
+  height: 0.2px;
+  border: none;
+  background-color: #E3E3E3;
+}
+.infor_bill
+{
+  background-color: white;
+  border-radius: 5px;  
+  margin-top: 4px;
+  width: 45vh;
+}
+.day_bill
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 0px 10px;
+}
+.infor_bill h4
+{
+  text-align: end;
+  margin-right: 10px;
+  color: red;
+  margin-bottom: 5px;
+}
+.total_bill
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.total_bill span
+{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+
+
+#confirm_
+{
+  margin: 10px 20px 10px 20px;
+  border-radius: 5px;
+  background-color: #F6EDC2;
+  border-style: solid;
+  border-color: #F2E49C;
+  padding: 5px;
+  color: #886C3A;
+}
+.contact_bill
+{margin: 10px 20px 10px 20px;
+  border-radius: 5px;
+  background-color: #EDEFF2;
+  border: none;
+  padding: 5px;
+  color: black;
+}
+#numberphone
+{
+  font-weight: 700;
+}
+.alter_bill
+{
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  height: 20px;
+  background-color: #ED4922;
+  padding: 10px;
+  position: fixed;
+  margin-left: 62%;
+  width: 40vh;
+  height: 15vh;
+  text-align: center;
+  border-radius: 10px;
+}
+.alter_bill h1
+{
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+.alter_bill div 
+{
+  display: block;
+  font-size: 12px;
+}
+.alter_bill a
+{
+  text-decoration: none;
+  
+}
+.alter_bill h2
+{
+  font-size: 20px;
+}
